@@ -6,7 +6,7 @@ Telegram-бот, который помогает пользователям оп
 
 1. **Клонируйте репозиторий**:
 ```bash
-git clone https://github.com/yourusername/totem-animal-bot.git
+git clone https://github.com/nikolay-977/totem-animal-bot.git
 cd totem-animal-bot
 ```
 
@@ -18,7 +18,10 @@ python3 -m venv venv
 
 3. **Настройте конфигурационный файл**:
 
-Укажите ваш BOT_TOKEN (токен полученный от @BotFather), а также SHARE_URL (адрес вашего бота)
+```bash
+echo "TELEGRAM_BOT_TOKEN=<укажите ваш token>" > .env
+echo "STAFF_CHAT_ID=<укажите chat_id>" >> .env
+ ```
 
 4. **Запустите бота**:
 ```bash
